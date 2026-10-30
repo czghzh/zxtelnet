@@ -1,0 +1,8 @@
+version: 2
+
+builds:
+  -
+    flags:
+      - -trimpath
+    ldflags:
+      - -s -w -X github.com/septrum101/zteOnu/version.version={{.Version}} -X github.com/septrum101/zteOnu/version.date={{.Date}}

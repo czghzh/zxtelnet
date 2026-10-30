@@ -1,0 +1,17 @@
+# 编译产物（保留 bin/ 中的发布二进制，忽略临时构建）
+*.test
+*.out
+zteonu
+!bin/zteonu-*
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 本地笔记
+.workbuddy/
